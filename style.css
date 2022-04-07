@@ -4,16 +4,47 @@
     padding: 0;
 }
 body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(46, 44, 44);
     color: white;
 }
 
 .main_time{
 
-    width: 25%;
-    margin: 300px auto;
-    border: 1px solid red;
+    border: 3px solid rgb(56, 122, 198);
+    width: 390px;
     border-radius: 10px;
+    padding: 15px 10px;
     text-align: center;
-    padding: 15px 0;
+}
+.main_time:hover{
+    background-color:rgb(56, 122, 198);
+    box-shadow: 0 0 30px rgb(56, 122, 198);
+
+}
+.date{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+.time{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 6px;
+
+
+}
+.time span:last-child{
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
