@@ -3,3 +3,17 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+
+.main_time{
+
+    width: 25%;
+    margin: 300px auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0;
+}
