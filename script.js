@@ -1,7 +1,7 @@
 function updateclock(){
     let now = new Date();
     
-    var wday = now.getDay(),
+    let wday = now.getDay(),
         month = now.getMonth(), 
         mday  = now.getDate(),
         year = now.getFullYear(), 
@@ -32,10 +32,7 @@ function updateclock(){
         for(i=0; i< elements.length; i++){
             document.getElementById(elements[i]).firstChild.nodeValue = values[i]
         }
-
-
 }
-
 
 function initclock(){
     setInterval("updateclock()",1);
