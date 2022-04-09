@@ -14,7 +14,7 @@ body{
 
 .main_time{
 
-    border: 3px solid rgb(56, 122, 198);
+    border: 3px solid white;
     width: 390px;
     border-radius: 10px;
     padding: 15px 10px;
@@ -25,8 +25,10 @@ body{
 .main_time:hover{
     background-color:rgb(56, 122, 198);
     box-shadow: 0 0 30px rgb(56, 122, 198);
-
+    border: 3px solid rgb(56, 122, 198);
+    width: 430px;
 }
+
 .date{
     font-size: 25px;
     margin-top: 20px;
